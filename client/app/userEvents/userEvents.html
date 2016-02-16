@@ -1,0 +1,16 @@
+<div>
+  <div id = "navBar">
+    <ul>
+      <li><a href="#/search">Search</a></li>      
+      <li><a href="#/userEvents">My Events</a></li>    
+    </ul>   
+  </div>
+  <div ng-repeat="event in user.events" class = "eventbox">
+    <h2>Band Name: {{event.artists}}<h2>
+    <h4>{{event.date_time}}</h4>
+    <h3>Venue: {{event.name}}</h3> - <a target="_blank" ng-href={{event.ticket_url}}> Buy Tickets</a>
+  </div>
+</div>
+<!--need to hold on to user ID somewhere because that is what being passed back and forth to get data-->
+
+<!--"main" in all file and folders should be reset to maps -->

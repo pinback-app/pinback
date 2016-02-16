@@ -1,0 +1,28 @@
+<div id='container'>
+    <div id = "navBar">
+    <ul>
+      <li><a href="#/search">Search</a></li>      
+      <li><a href="#/userEvents">My Events</a></li>   
+      <li><a href="#/login">Login/Logout<a/></li>   
+    </ul>   
+  </div><!--there's definitely a wy to toggle that back and forth depending on whether the user has logged in or not-->
+  <form novalidate name = "inputForm">
+    <label for = "username"> Username:  </label>
+    <br/>
+      <input type = "text" class = "loginInput" id = "username" ng-model = "login.username" required name = "username"/>
+    <br/>
+    <label for = "password"> Password:  </label>
+    <br/>
+      <input type = "password" class = "loginInput" id = "password"  ng-model = "login.password" required name: "password"/> 
+    <br/>
+    <br/>
+    <input type = "submit" ng-click = "format(search)"/>
+    <div ng-messages = "inputForm.username.$error" role = "alert">
+      <div ng-message = "required">
+        Please enter your username
+      </div> 
+    </div>
+  </form>
+</div>
+
+<!-- in the midst of refactoring from search page-->

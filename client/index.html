@@ -1,0 +1,35 @@
+<!doctype html>
+<html ng-app='greenfield'>
+    <head>
+        <meta charset="utf-8">
+        <title>green field home page</title>
+        <link rel="stylesheet" href="/styles/styles.css">
+        <link href='https://api.tiles.mapbox.com/mapbox.js/v2.2.3/mapbox.css' rel='stylesheet' />
+        <link rel="icon" type="image/png" href="styles/favicon.ico">
+        <script src="https://maps.googleapis.com/maps/api/js?sensor=falselibraries=places&language=gb"></script>
+        
+    </head>
+    <body>
+        <!--if we want a nav bar, we should put it here so it persists across views-->
+        <div ng-view="">
+            
+        </div>
+        
+        <script src="/lib/keys.js"></script>
+        <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="/bower_components/angular/angular.js"></script>
+        <script src="/bower_components/angular-route/angular-route.js"></script>
+        <script src="/bower_components/angular-messages/angular-messages.js"></script>
+        <script src="/app/directives/angular-leaflet-directive.min.js"></script>
+        <script src='/lib/mapbox.js'></script>
+
+
+
+        <script src="/app/services/app.js"></script>
+        <script src="/app/app.js"></script>
+        <script src="/app/main/main.js"></script>
+        <script src="/app/search/search.js"></script>
+        <script src="/app/login/login.js"></script>
+        <script src="/app/userEvents/userEvents.js"></script>
+    </body>
+</html>

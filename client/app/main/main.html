@@ -1,0 +1,24 @@
+<div id='container'>
+  <div id = "navBar">
+    <ul>
+      <li><a href="#/search">Search</a></li>
+      <li><a href="#/userEvents">My Events</a></li>
+    </ul>
+  </div>
+</div>
+<!-- div for map to render -->
+<leaflet lf-center="center"  defaults = 'defaults' class='custom-popup' event-broadcast="events" layers = 'layers' markers="markers" width="100%" height="500px"></leaflet>
+<div class='events-bar' ng-show="reveal">
+  <div class = 'eventbox' id="mapEvent" ng-repeat = 'event in data.showMarker'>
+    <div class = 'event'>
+      <div class = 'name'> {{event.artists[0]['name']}}</div>
+      <div class = 'date'> Time:  {{event['datetime']}}</div>
+      <div class = 'date'> <a href = "{{event['url']}}">More Info</a></div>
+      <input class = 'add' type = "submit" value = "add" ng-click = "addEvent(event)"/>
+    </div>
+  </div>
+</div>
+
+</div>
+
+</div>

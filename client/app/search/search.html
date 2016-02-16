@@ -1,0 +1,27 @@
+<div id='container'>
+  <div id = "navBar">
+    <ul>
+      <li><a href="#/search">Search</a></li>
+      <li><a href="#/userEvents">My Events</a></li>
+    </ul>
+  </div>
+  <form novalidate name = "inputForm" id = "searchPage"><!--removes native form validation-->
+  <span>
+    <label for = "rawFromDate"> Date Range: </label>
+    <input type = "date" class = "formInput" id = "rawFromDate" ng-model = "search.rawFromDate" />  <input type = "date" class = "formInput" ng-model = "search.rawToDate"/>
+    <br/>
+    <label for = "zip">Zipcode:</label> <!--making a label using the id allows users to switch control to the input by clicking zip:-->
+    <input type = "text" class = "formInput" id = "zip" ng-model = "search.zip" required name = "zip" ng-minlength = 5 ng-maxlength = 5 />
+    <br/>
+    <input type = "submit" ng-click = "format(search)" class = "btn"/>
+    <div ng-messages = "inputForm.zip.$error" role = "alert">
+      <div ng-message = "required">
+        Please enter a zipcode
+        </div> <!--finds form sections marked as required and shows this message when they are empty-->
+        <div ng-message = "minlength, maxlength">
+          Please enter a valid 5 digit zipcode
+        </div>
+      </div>
+    </span>
+  </form>
+</div>

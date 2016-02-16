@@ -1,0 +1,1352 @@
+[
+  {
+    "id": 10786327,
+    "url": "http://www.bandsintown.com/event/10786327",
+    "datetime": "2016-01-07T09:00:00",
+    "ticket_url": "http://www.bandsintown.com/event/10786327/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "Darcy Dawn & Company",
+        "url": "http://www.bandsintown.com/DarcyDawnAndCompany",
+        "mbid": null
+      }
+    ],
+    "venue": {
+      "id": 3051563,
+      "url": "http://www.bandsintown.com/venue/3051563",
+      "name": "Blackwall Hitch ",
+      "city": "Alexandria",
+      "region": "VA",
+      "country": "United States",
+      "latitude": 38.8047222,
+      "longitude": -77.0472222
+    },
+    "ticket_status": "unavailable",
+    "on_sale_datetime": null
+  },
+  {
+    "id": 11025167,
+    "url": "http://www.bandsintown.com/event/11025167",
+    "datetime": "2016-01-07T19:00:00",
+    "ticket_url": "http://www.bandsintown.com/event/11025167/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "Briclyn Entertainment",
+        "url": "http://www.bandsintown.com/BriclynEntertainment",
+        "mbid": null
+      }
+    ],
+    "venue": {
+      "id": 3100787,
+      "url": "http://www.bandsintown.com/venue/3100787",
+      "name": "Betheda Blues & Jazz",
+      "city": "Bethesda",
+      "region": "MD",
+      "country": "United States",
+      "latitude": 38.9872695,
+      "longitude": -77.094026
+    },
+    "ticket_status": "unavailable",
+    "on_sale_datetime": null
+  },
+  {
+    "id": 11164526,
+    "url": "http://www.bandsintown.com/event/11164526",
+    "datetime": "2016-01-07T19:00:00",
+    "ticket_url": "http://www.bandsintown.com/event/11164526/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "DJ Phlipz",
+        "url": "http://www.bandsintown.com/DjPhlipz",
+        "mbid": null
+      }
+    ],
+    "venue": {
+      "id": 2454540,
+      "url": "http://www.bandsintown.com/venue/2454540",
+      "name": "STK DC",
+      "city": "Washington",
+      "region": "DC",
+      "country": "United States",
+      "latitude": 38.906867,
+      "longitude": -77.042322
+    },
+    "ticket_status": "available",
+    "on_sale_datetime": null
+  },
+  {
+    "id": 11066249,
+    "url": "http://www.bandsintown.com/event/11066249",
+    "datetime": "2016-01-07T19:00:00",
+    "ticket_url": "http://www.bandsintown.com/event/11066249/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "The Great Heights Band",
+        "url": "http://www.bandsintown.com/TheGreatHeightsBand",
+        "mbid": null
+      }
+    ],
+    "venue": {
+      "id": 3109161,
+      "url": "http://www.bandsintown.com/venue/3109161",
+      "name": "The Wonderland Ballroom w/ PARTY LIKE IT'S...",
+      "city": "Washington",
+      "region": "DC",
+      "country": "United States",
+      "latitude": 38.929889,
+      "longitude": -77.027992
+    },
+    "ticket_status": "available",
+    "on_sale_datetime": null
+  },
+  {
+    "id": 10727056,
+    "url": "http://www.bandsintown.com/event/10727056",
+    "datetime": "2016-01-07T19:00:00",
+    "ticket_url": "http://www.bandsintown.com/event/10727056/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "Matilda The Musical Washington DC",
+        "url": "http://www.bandsintown.com/MatildaTheMusicalWashingtonDc",
+        "mbid": null
+      }
+    ],
+    "venue": {
+      "id": 774360,
+      "url": "http://www.bandsintown.com/venue/774360",
+      "name": "Kennedy Center Opera House",
+      "city": "Washington Dc",
+      "region": "DC",
+      "country": "United States",
+      "latitude": 38.89606,
+      "longitude": -77.0552
+    },
+    "ticket_status": "unavailable",
+    "on_sale_datetime": null
+  },
+  {
+    "id": 11098001,
+    "url": "http://www.bandsintown.com/event/11098001",
+    "datetime": "2016-01-07T19:00:00",
+    "ticket_url": "http://www.bandsintown.com/event/11098001/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "BOOMscat",
+        "url": "http://www.bandsintown.com/BOOMscat",
+        "mbid": null
+      }
+    ],
+    "venue": {
+      "id": 817635,
+      "url": "http://www.bandsintown.com/venue/817635",
+      "name": "Rock N Roll Hotel",
+      "city": "Washington",
+      "region": "DC",
+      "country": "United States",
+      "latitude": 38.9,
+      "longitude": -76.98656
+    },
+    "ticket_status": "available",
+    "on_sale_datetime": "2015-12-21T13:00:00"
+  },
+  {
+    "id": 11011791,
+    "url": "http://www.bandsintown.com/event/11011791",
+    "datetime": "2016-01-07T19:00:00",
+    "ticket_url": "http://www.bandsintown.com/event/11011791/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "9:30 WORLD’S FAIR – DOUBLE ANNIVERSARY EXHIBITION CELEBRATION!",
+        "url": "http://www.bandsintown.com/9%3A30World%E2%80%99sFair%E2%80%93DoubleAnniversaryExhibitionCelebration%21",
+        "mbid": null
+      },
+      {
+        "name": "Funhouse of interactive",
+        "url": "http://www.bandsintown.com/FunhouseOfInteractive",
+        "mbid": null
+      },
+      {
+        "name": "jaw-dropping imagery chronicling 35 years of memories and memorabilia",
+        "url": "http://www.bandsintown.com/Jaw-droppingImageryChronicling35YearsOfMemoriesAndMemorabilia",
+        "mbid": null
+      }
+    ],
+    "venue": {
+      "id": 85112,
+      "url": "http://www.bandsintown.com/venue/85112",
+      "name": "9:30 Club",
+      "city": "Washington",
+      "region": "DC",
+      "country": "United States",
+      "latitude": 38.91789,
+      "longitude": -77.023183
+    },
+    "ticket_status": "available",
+    "on_sale_datetime": "2015-12-07T10:00:00"
+  },
+  {
+    "id": 10852305,
+    "url": "http://www.bandsintown.com/event/10852305",
+    "datetime": "2016-01-07T19:00:00",
+    "ticket_url": "http://www.bandsintown.com/event/10852305/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "Lindo",
+        "url": "http://www.bandsintown.com/Lindo",
+        "mbid": null
+      }
+    ],
+    "venue": {
+      "id": 3064896,
+      "url": "http://www.bandsintown.com/venue/3064896",
+      "name": "ECAC",
+      "city": "Washington",
+      "region": "DC",
+      "country": "United States",
+      "latitude": 38.9242966,
+      "longitude": -77.0237417
+    },
+    "ticket_status": "unavailable",
+    "on_sale_datetime": null
+  },
+  {
+    "id": 11157196,
+    "url": "http://www.bandsintown.com/event/11157196",
+    "datetime": "2016-01-07T19:30:00",
+    "ticket_url": "http://www.bandsintown.com/event/11157196/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "POV Live",
+        "url": "http://www.bandsintown.com/PovLive",
+        "mbid": null
+      },
+      {
+        "name": "The Chad Hollister Band",
+        "url": "http://www.bandsintown.com/TheChadHollisterBand",
+        "mbid": "b5d8dd60-54b2-47ae-81c5-4bb9e6ed6937"
+      }
+    ],
+    "venue": {
+      "id": 2603552,
+      "url": "http://www.bandsintown.com/venue/2603552",
+      "name": "POV",
+      "city": "Washington",
+      "region": "DC",
+      "country": "United States",
+      "latitude": 38.897089,
+      "longitude": -77.032843
+    },
+    "ticket_status": "available",
+    "on_sale_datetime": null
+  },
+  {
+    "id": 11011793,
+    "url": "http://www.bandsintown.com/event/11011793",
+    "datetime": "2016-01-07T19:30:00",
+    "ticket_url": "http://www.bandsintown.com/event/11011793/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "The Kensingtones",
+        "url": "http://www.bandsintown.com/TheKensingtones",
+        "mbid": null
+      },
+      {
+        "name": "Vinyl lounge",
+        "url": "http://www.bandsintown.com/VinylLounge",
+        "mbid": null
+      }
+    ],
+    "venue": {
+      "id": 2164309,
+      "url": "http://www.bandsintown.com/venue/2164309",
+      "name": "Vinyl Lounge at Gypsy Sally's",
+      "city": "Washington",
+      "region": "DC",
+      "country": "United States",
+      "latitude": 38.904145,
+      "longitude": -77.068103
+    },
+    "ticket_status": "available",
+    "on_sale_datetime": null
+  },
+  {
+    "id": 11076130,
+    "url": "http://www.bandsintown.com/event/11076130",
+    "datetime": "2016-01-07T20:00:00",
+    "ticket_url": "http://www.bandsintown.com/event/11076130/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "RatheMC",
+        "url": "http://www.bandsintown.com/RatheMC",
+        "mbid": null
+      }
+    ],
+    "venue": {
+      "id": 1321382,
+      "url": "http://www.bandsintown.com/venue/1321382",
+      "name": "Rock & Roll Hotel",
+      "city": "Washington",
+      "region": "DC",
+      "country": "United States",
+      "latitude": 38.900007,
+      "longitude": -76.986649
+    },
+    "ticket_status": "available",
+    "on_sale_datetime": "2015-12-16T09:07:00"
+  },
+  {
+    "id": 11123263,
+    "url": "http://www.bandsintown.com/event/11123263",
+    "datetime": "2016-01-07T20:00:00",
+    "ticket_url": "http://www.bandsintown.com/event/11123263/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "PJ MORTON",
+        "url": "http://www.bandsintown.com/PjMorton",
+        "mbid": null
+      }
+    ],
+    "venue": {
+      "id": 1805028,
+      "url": "http://www.bandsintown.com/venue/1805028",
+      "name": "BETHESDA BLUES & JAZZ",
+      "city": "Bethesda",
+      "region": "MD",
+      "country": "United States",
+      "latitude": 38.9870889,
+      "longitude": -77.0947511
+    },
+    "ticket_status": "available",
+    "on_sale_datetime": null
+  },
+  {
+    "id": 11104868,
+    "url": "http://www.bandsintown.com/event/11104868",
+    "datetime": "2016-01-07T20:00:00",
+    "ticket_url": "http://www.bandsintown.com/event/11104868/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "Chris DeChiara-Percussionist",
+        "url": "http://www.bandsintown.com/ChrisDechiara-percussionist",
+        "mbid": null
+      }
+    ],
+    "venue": {
+      "id": 3116658,
+      "url": "http://www.bandsintown.com/venue/3116658",
+      "name": "Eyes Of The Nile (Iron Maiden tribute)-Velvet Lounge",
+      "city": "Washington",
+      "region": "DC",
+      "country": "United States",
+      "latitude": 38.917047,
+      "longitude": -77.024685
+    },
+    "ticket_status": "unavailable",
+    "on_sale_datetime": null
+  },
+  {
+    "id": 10948221,
+    "url": "http://www.bandsintown.com/event/10948221",
+    "datetime": "2016-01-07T20:00:00",
+    "ticket_url": "http://www.bandsintown.com/event/10948221/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "Chris Thomas King Fan Page",
+        "url": "http://www.bandsintown.com/ChrisThomasKingFanPage",
+        "mbid": null
+      }
+    ],
+    "venue": {
+      "id": 3084540,
+      "url": "http://www.bandsintown.com/venue/3084540",
+      "name": "Blues Alley 8:00PM",
+      "city": "Washington",
+      "region": "DC",
+      "country": "United States",
+      "latitude": 38.904689,
+      "longitude": -77.062545
+    },
+    "ticket_status": "unavailable",
+    "on_sale_datetime": null
+  },
+  {
+    "id": 10854610,
+    "url": "http://www.bandsintown.com/event/10854610",
+    "datetime": "2016-01-07T20:00:00",
+    "ticket_url": "http://www.bandsintown.com/event/10854610/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "Bootsy Collins Rubber Band",
+        "url": "http://www.bandsintown.com/BootsyCollinsRubberBand",
+        "mbid": null
+      }
+    ],
+    "venue": {
+      "id": 1321307,
+      "url": "http://www.bandsintown.com/venue/1321307",
+      "name": "Howard Theatre",
+      "city": "Washington",
+      "region": "DC",
+      "country": "United States",
+      "latitude": 38.915552,
+      "longitude": -77.021001
+    },
+    "ticket_status": "available",
+    "on_sale_datetime": "2015-11-05T12:00:00"
+  },
+  {
+    "id": 11098099,
+    "url": "http://www.bandsintown.com/event/11098099",
+    "datetime": "2016-01-07T20:00:00",
+    "ticket_url": "http://www.bandsintown.com/event/11098099/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "Sarah Myers",
+        "url": "http://www.bandsintown.com/SarahMyers",
+        "mbid": null
+      },
+      {
+        "name": "Dub Phizix",
+        "url": "http://www.bandsintown.com/DubPhizix",
+        "mbid": null
+      }
+    ],
+    "venue": {
+      "id": 1906038,
+      "url": "http://www.bandsintown.com/venue/1906038",
+      "name": "Flash",
+      "city": "Washington",
+      "region": "DC",
+      "country": "United States",
+      "latitude": 38.916212,
+      "longitude": -77.021445
+    },
+    "ticket_status": "available",
+    "on_sale_datetime": "2015-12-21T15:07:11"
+  },
+  {
+    "id": 10974463,
+    "url": "http://www.bandsintown.com/event/10974463",
+    "datetime": "2016-01-07T20:00:00",
+    "ticket_url": "http://www.bandsintown.com/event/10974463/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "Bad Influence",
+        "url": "http://www.bandsintown.com/BadInfluence",
+        "mbid": "73640a00-0b89-4af2-9f7d-b577157ade6c"
+      }
+    ],
+    "venue": {
+      "id": 2744629,
+      "url": "http://www.bandsintown.com/venue/2744629",
+      "name": "Villain & Saint",
+      "city": "Bethesda",
+      "region": "MD",
+      "country": "United States",
+      "latitude": 38.980782,
+      "longitude": -77.092245
+    },
+    "ticket_status": "available",
+    "on_sale_datetime": "2015-11-26T13:53:55"
+  },
+  {
+    "id": 10847894,
+    "url": "http://www.bandsintown.com/event/10847894",
+    "datetime": "2016-01-07T20:30:00",
+    "ticket_url": "http://www.bandsintown.com/event/10847894/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "Satisfaction",
+        "url": "http://www.bandsintown.com/Satisfaction",
+        "mbid": "5f7f4ff3-4d9d-4558-b5c1-94ddcca63e87"
+      }
+    ],
+    "venue": {
+      "id": 2979921,
+      "url": "http://www.bandsintown.com/venue/2979921",
+      "name": "Gypsy Sally's",
+      "city": "Washington",
+      "region": "DC",
+      "country": "United States",
+      "latitude": 38.902594,
+      "longitude": -77.062754
+    },
+    "ticket_status": "available",
+    "on_sale_datetime": "2015-11-02T18:16:24"
+  },
+  {
+    "id": 11003167,
+    "url": "http://www.bandsintown.com/event/11003167",
+    "datetime": "2016-01-07T21:00:00",
+    "ticket_url": "http://www.bandsintown.com/event/11003167/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "PeeWee Moore",
+        "url": "http://www.bandsintown.com/PeeweeMoore",
+        "mbid": null
+      }
+    ],
+    "venue": {
+      "id": 1937451,
+      "url": "http://www.bandsintown.com/venue/1937451",
+      "name": "Hill Country BBQ DC",
+      "city": "Washington",
+      "region": "DC",
+      "country": "United States",
+      "latitude": 38.895,
+      "longitude": -77.0366667
+    },
+    "ticket_status": "unavailable",
+    "on_sale_datetime": null
+  },
+  {
+    "id": 11066763,
+    "url": "http://www.bandsintown.com/event/11066763",
+    "datetime": "2016-01-07T21:00:00",
+    "ticket_url": "http://www.bandsintown.com/event/11066763/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "Trifilio Tango Trio",
+        "url": "http://www.bandsintown.com/TrifilioTangoTrio",
+        "mbid": null
+      }
+    ],
+    "venue": {
+      "id": 2146067,
+      "url": "http://www.bandsintown.com/venue/2146067",
+      "name": "Rumba Cafe",
+      "city": "Washington",
+      "region": "DC",
+      "country": "United States",
+      "latitude": 38.921613,
+      "longitude": -77.042168
+    },
+    "ticket_status": "unavailable",
+    "on_sale_datetime": null
+  },
+  {
+    "id": 10992026,
+    "url": "http://www.bandsintown.com/event/10992026",
+    "datetime": "2016-01-07T21:00:00",
+    "ticket_url": "http://www.bandsintown.com/event/10992026/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "Devree Lewis",
+        "url": "http://www.bandsintown.com/DevreeLewis",
+        "mbid": null
+      }
+    ],
+    "venue": {
+      "id": 3094010,
+      "url": "http://www.bandsintown.com/venue/3094010",
+      "name": "Rumba Cafe: Trifilio Tango Trio",
+      "city": "Washington",
+      "region": "DC",
+      "country": "United States",
+      "latitude": 38.9216156,
+      "longitude": -77.0419998
+    },
+    "ticket_status": "unavailable",
+    "on_sale_datetime": null
+  },
+  {
+    "id": 11118061,
+    "url": "http://www.bandsintown.com/event/11118061",
+    "datetime": "2016-01-07T21:00:00",
+    "ticket_url": "http://www.bandsintown.com/event/11118061/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "Satisfaction/The International Rolling Stones Show",
+        "url": "http://www.bandsintown.com/Satisfaction%252FtheInternationalRollingStonesShow",
+        "mbid": null
+      }
+    ],
+    "venue": {
+      "id": 2979921,
+      "url": "http://www.bandsintown.com/venue/2979921",
+      "name": "Gypsy Sally's",
+      "city": "Washington",
+      "region": "DC",
+      "country": "United States",
+      "latitude": 38.902594,
+      "longitude": -77.062754
+    },
+    "ticket_status": "unavailable",
+    "on_sale_datetime": null
+  },
+  {
+    "id": 9763202,
+    "url": "http://www.bandsintown.com/event/9763202",
+    "datetime": "2016-01-07T21:30:00",
+    "ticket_url": "http://www.bandsintown.com/event/9763202/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "Lotus thursdays",
+        "url": "http://www.bandsintown.com/LotusThursdays",
+        "mbid": null
+      }
+    ],
+    "venue": {
+      "id": 1816154,
+      "url": "http://www.bandsintown.com/venue/1816154",
+      "name": "Lotus lounge",
+      "city": "Washington",
+      "region": "DC",
+      "country": "United States",
+      "latitude": 38.9030495,
+      "longitude": -77.0500107
+    },
+    "ticket_status": "unavailable",
+    "on_sale_datetime": null
+  },
+  {
+    "id": 11162077,
+    "url": "http://www.bandsintown.com/event/11162077",
+    "datetime": "2016-01-07T21:30:00",
+    "ticket_url": "http://www.bandsintown.com/event/11162077/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "Tejas Singh",
+        "url": "http://www.bandsintown.com/TejasSingh",
+        "mbid": null
+      }
+    ],
+    "venue": {
+      "id": 2548535,
+      "url": "http://www.bandsintown.com/venue/2548535",
+      "name": "William Jeffreys Tavern",
+      "city": "Arlington",
+      "region": "VA",
+      "country": "United States",
+      "latitude": 38.8902778,
+      "longitude": -77.0844444
+    },
+    "ticket_status": "unavailable",
+    "on_sale_datetime": null
+  },
+  {
+    "id": 10948224,
+    "url": "http://www.bandsintown.com/event/10948224",
+    "datetime": "2016-01-07T22:00:00",
+    "ticket_url": "http://www.bandsintown.com/event/10948224/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "Chris Thomas King Fan Page",
+        "url": "http://www.bandsintown.com/ChrisThomasKingFanPage",
+        "mbid": null
+      }
+    ],
+    "venue": {
+      "id": 3084542,
+      "url": "http://www.bandsintown.com/venue/3084542",
+      "name": "Blues Alley 10:00PM",
+      "city": "Washington",
+      "region": "DC",
+      "country": "United States",
+      "latitude": 38.904689,
+      "longitude": -77.062545
+    },
+    "ticket_status": "unavailable",
+    "on_sale_datetime": null
+  },
+  {
+    "id": 11027964,
+    "url": "http://www.bandsintown.com/event/11027964",
+    "datetime": "2016-01-07T22:00:00",
+    "ticket_url": "http://www.bandsintown.com/event/11027964/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "Gabriel & Dresden",
+        "url": "http://www.bandsintown.com/GabrielAndDresden",
+        "mbid": "7fedce48-0f20-442d-80fe-324c61339fc3"
+      }
+    ],
+    "venue": {
+      "id": 2853970,
+      "url": "http://www.bandsintown.com/venue/2853970",
+      "name": "Soundcheck",
+      "city": "Washington",
+      "region": "DC",
+      "country": "United States",
+      "latitude": 38.902175,
+      "longitude": -77.032921
+    },
+    "ticket_status": "available",
+    "on_sale_datetime": null
+  },
+  {
+    "id": 10862400,
+    "url": "http://www.bandsintown.com/event/10862400",
+    "datetime": "2016-01-08T18:00:00",
+    "ticket_url": "http://www.bandsintown.com/event/10862400/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "Shabbasana",
+        "url": "http://www.bandsintown.com/Shabbasana",
+        "mbid": null
+      },
+      {
+        "name": "6th in the City Pre-Shabbat Yoga",
+        "url": "http://www.bandsintown.com/6thInTheCityPre-shabbatYoga",
+        "mbid": null
+      },
+      {
+        "name": "6th in the City Shabbat",
+        "url": "http://www.bandsintown.com/6thInTheCityShabbat",
+        "mbid": null
+      }
+    ],
+    "venue": {
+      "id": 302430,
+      "url": "http://www.bandsintown.com/venue/302430",
+      "name": "Sixth & I Historic Synagogue",
+      "city": "Washington",
+      "region": "DC",
+      "country": "United States",
+      "latitude": 38.900734,
+      "longitude": -77.020112
+    },
+    "ticket_status": "available",
+    "on_sale_datetime": "2015-11-04T13:40:51"
+  },
+  {
+    "id": 10924043,
+    "url": "http://www.bandsintown.com/event/10924043",
+    "datetime": "2016-01-08T19:00:00",
+    "ticket_url": "http://www.bandsintown.com/event/10924043/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "Matilda The Musical Washington DC",
+        "url": "http://www.bandsintown.com/MatildaTheMusicalWashingtonDc",
+        "mbid": null
+      }
+    ],
+    "venue": {
+      "id": 774360,
+      "url": "http://www.bandsintown.com/venue/774360",
+      "name": "Kennedy Center Opera House",
+      "city": "Washington Dc",
+      "region": "DC",
+      "country": "United States",
+      "latitude": 38.89606,
+      "longitude": -77.0552
+    },
+    "ticket_status": "unavailable",
+    "on_sale_datetime": null
+  },
+  {
+    "id": 11069733,
+    "url": "http://www.bandsintown.com/event/11069733",
+    "datetime": "2016-01-08T19:00:00",
+    "ticket_url": "http://www.bandsintown.com/event/11069733/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "9:30 WORLD’S FAIR – DOUBLE ANNIVERSARY EXHIBITION CELEBRATION!",
+        "url": "http://www.bandsintown.com/9%3A30World%E2%80%99sFair%E2%80%93DoubleAnniversaryExhibitionCelebration%21",
+        "mbid": null
+      },
+      {
+        "name": "Funhouse of interactive",
+        "url": "http://www.bandsintown.com/FunhouseOfInteractive",
+        "mbid": null
+      },
+      {
+        "name": "jaw-dropping imagery chronicling 35 years of memories and memorabilia",
+        "url": "http://www.bandsintown.com/Jaw-droppingImageryChronicling35YearsOfMemoriesAndMemorabilia",
+        "mbid": null
+      }
+    ],
+    "venue": {
+      "id": 85112,
+      "url": "http://www.bandsintown.com/venue/85112",
+      "name": "9:30 Club",
+      "city": "Washington",
+      "region": "DC",
+      "country": "United States",
+      "latitude": 38.91789,
+      "longitude": -77.023183
+    },
+    "ticket_status": "available",
+    "on_sale_datetime": "2015-12-18T10:00:00"
+  },
+  {
+    "id": 11128627,
+    "url": "http://www.bandsintown.com/event/11128627",
+    "datetime": "2016-01-08T19:00:00",
+    "ticket_url": "http://www.bandsintown.com/event/11128627/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "Jon Cresswell",
+        "url": "http://www.bandsintown.com/JonCresswell",
+        "mbid": null
+      }
+    ],
+    "venue": {
+      "id": 1081950,
+      "url": "http://www.bandsintown.com/venue/1081950",
+      "name": "Fireflies Delray",
+      "city": "Alexandria",
+      "region": "VA",
+      "country": "United States",
+      "latitude": 38.819735,
+      "longitude": -77.057371
+    },
+    "ticket_status": "unavailable",
+    "on_sale_datetime": null
+  },
+  {
+    "id": 11164533,
+    "url": "http://www.bandsintown.com/event/11164533",
+    "datetime": "2016-01-08T19:00:00",
+    "ticket_url": "http://www.bandsintown.com/event/11164533/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "DJ RI5E",
+        "url": "http://www.bandsintown.com/DjRi5e",
+        "mbid": null
+      }
+    ],
+    "venue": {
+      "id": 2454540,
+      "url": "http://www.bandsintown.com/venue/2454540",
+      "name": "STK DC",
+      "city": "Washington",
+      "region": "DC",
+      "country": "United States",
+      "latitude": 38.906867,
+      "longitude": -77.042322
+    },
+    "ticket_status": "available",
+    "on_sale_datetime": null
+  },
+  {
+    "id": 10715537,
+    "url": "http://www.bandsintown.com/event/10715537",
+    "datetime": "2016-01-08T19:00:00",
+    "ticket_url": "http://www.bandsintown.com/event/10715537/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "Ricky Skaggs",
+        "url": "http://www.bandsintown.com/RickySkaggs",
+        "mbid": "1a14063c-9dca-48d5-98c3-89748c74562b"
+      }
+    ],
+    "venue": {
+      "id": 1305553,
+      "url": "http://www.bandsintown.com/venue/1305553",
+      "name": "The Birchmere",
+      "city": "Alexandria",
+      "region": "VA",
+      "country": "United States",
+      "latitude": 38.839411,
+      "longitude": -77.062349
+    },
+    "ticket_status": "available",
+    "on_sale_datetime": "2015-10-23T12:00:00"
+  },
+  {
+    "id": 10909666,
+    "url": "http://www.bandsintown.com/event/10909666",
+    "datetime": "2016-01-08T19:00:00",
+    "ticket_url": "http://www.bandsintown.com/event/10909666/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "The State Theatre",
+        "url": "http://www.bandsintown.com/TheStateTheatre",
+        "mbid": null
+      },
+      {
+        "name": "Slippery When Wet: the Ultimate Bon Jovi Tribute",
+        "url": "http://www.bandsintown.com/SlipperyWhenWet%3ATheUltimateBonJoviTribute",
+        "mbid": null
+      },
+      {
+        "name": "Slippery When Wet",
+        "url": "http://www.bandsintown.com/SlipperyWhenWet",
+        "mbid": null
+      }
+    ],
+    "venue": {
+      "id": 1095372,
+      "url": "http://www.bandsintown.com/venue/1095372",
+      "name": "THE STATE THEATRE",
+      "city": "Falls Church",
+      "region": "VA",
+      "country": "United States",
+      "latitude": 38.883148,
+      "longitude": -77.169899
+    },
+    "ticket_status": "available",
+    "on_sale_datetime": null
+  },
+  {
+    "id": 11016857,
+    "url": "http://www.bandsintown.com/event/11016857",
+    "datetime": "2016-01-08T19:30:00",
+    "ticket_url": "http://www.bandsintown.com/event/11016857/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "Scientist Turned Comedian Tim Lee",
+        "url": "http://www.bandsintown.com/ScientistTurnedComedianTimLee",
+        "mbid": null
+      }
+    ],
+    "venue": {
+      "id": 884799,
+      "url": "http://www.bandsintown.com/venue/884799",
+      "name": "Atlas Performing Arts Center",
+      "city": "Washington",
+      "region": "DC",
+      "country": "United States",
+      "latitude": 38.905085,
+      "longitude": -77.003053
+    },
+    "ticket_status": "unavailable",
+    "on_sale_datetime": null
+  },
+  {
+    "id": 11119570,
+    "url": "http://www.bandsintown.com/event/11119570",
+    "datetime": "2016-01-08T19:30:00",
+    "ticket_url": "http://www.bandsintown.com/event/11119570/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "Caitlin Mahoney",
+        "url": "http://www.bandsintown.com/CaitlinMahoney",
+        "mbid": null
+      }
+    ],
+    "venue": {
+      "id": 1331008,
+      "url": "http://www.bandsintown.com/venue/1331008",
+      "name": "Ebenezers Coffeehouse",
+      "city": "Washington",
+      "region": "DC",
+      "country": "United States",
+      "latitude": 38.897217,
+      "longitude": -77.003355
+    },
+    "ticket_status": "available",
+    "on_sale_datetime": "2015-12-28T21:32:50"
+  },
+  {
+    "id": 11113772,
+    "url": "http://www.bandsintown.com/event/11113772",
+    "datetime": "2016-01-08T19:45:00",
+    "ticket_url": "http://www.bandsintown.com/event/11113772/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "Sam Haiman",
+        "url": "http://www.bandsintown.com/SamHaiman",
+        "mbid": null
+      }
+    ],
+    "venue": {
+      "id": 1776347,
+      "url": "http://www.bandsintown.com/venue/1776347",
+      "name": "Tree House Lounge",
+      "city": "Washington",
+      "region": "DC",
+      "country": "United States",
+      "latitude": 38.904024,
+      "longitude": -76.992492
+    },
+    "ticket_status": "unavailable",
+    "on_sale_datetime": null
+  },
+  {
+    "id": 11081987,
+    "url": "http://www.bandsintown.com/event/11081987",
+    "datetime": "2016-01-08T20:00:00",
+    "ticket_url": "http://www.bandsintown.com/event/11081987/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "Rodriguez Jr",
+        "url": "http://www.bandsintown.com/RodriguezJr",
+        "mbid": null
+      },
+      {
+        "name": "Anthea",
+        "url": "http://www.bandsintown.com/Anthea",
+        "mbid": "3406d432-0e03-4856-8f82-cc1596849d33"
+      }
+    ],
+    "venue": {
+      "id": 1906038,
+      "url": "http://www.bandsintown.com/venue/1906038",
+      "name": "Flash",
+      "city": "Washington",
+      "region": "DC",
+      "country": "United States",
+      "latitude": 38.916212,
+      "longitude": -77.021445
+    },
+    "ticket_status": "available",
+    "on_sale_datetime": "2015-12-17T14:18:48"
+  },
+  {
+    "id": 10871068,
+    "url": "http://www.bandsintown.com/event/10871068",
+    "datetime": "2016-01-08T20:00:00",
+    "ticket_url": "http://www.bandsintown.com/event/10871068/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "Joe Louis Walker",
+        "url": "http://www.bandsintown.com/JoeLouisWalker",
+        "mbid": "7c83dbe6-097d-4d4c-9353-9f772a4f756c"
+      }
+    ],
+    "venue": {
+      "id": 2032164,
+      "url": "http://www.bandsintown.com/venue/2032164",
+      "name": "Bethesda Blues and Jazz",
+      "city": "Bethesda",
+      "region": "MD",
+      "country": "United States",
+      "latitude": 38.9870889,
+      "longitude": -77.0947511
+    },
+    "ticket_status": "unavailable",
+    "on_sale_datetime": null
+  },
+  {
+    "id": 11039068,
+    "url": "http://www.bandsintown.com/event/11039068",
+    "datetime": "2016-01-08T20:00:00",
+    "ticket_url": "http://www.bandsintown.com/event/11039068/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "Human Country Jukebox",
+        "url": "http://www.bandsintown.com/HumanCountryJukebox",
+        "mbid": null
+      }
+    ],
+    "venue": {
+      "id": 3103650,
+      "url": "http://www.bandsintown.com/venue/3103650",
+      "name": "Oconnells ",
+      "city": "Alexandria",
+      "region": "VA",
+      "country": "United States",
+      "latitude": 38.8047222,
+      "longitude": -77.0472222
+    },
+    "ticket_status": "unavailable",
+    "on_sale_datetime": null
+  },
+  {
+    "id": 11056766,
+    "url": "http://www.bandsintown.com/event/11056766",
+    "datetime": "2016-01-08T20:00:00",
+    "ticket_url": "http://www.bandsintown.com/event/11056766/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "Brian Settles ",
+        "url": "http://www.bandsintown.com/BrianSettles",
+        "mbid": null
+      },
+      {
+        "name": "Allyn Johnson",
+        "url": "http://www.bandsintown.com/AllynJohnson",
+        "mbid": null
+      },
+      {
+        "name": "Herman Burney",
+        "url": "http://www.bandsintown.com/HermanBurney",
+        "mbid": null
+      },
+      {
+        "name": "Reginald Cyntje",
+        "url": "http://www.bandsintown.com/ReginaldCyntje",
+        "mbid": null
+      },
+      {
+        "name": "Christie Dashiell",
+        "url": "http://www.bandsintown.com/ChristieDashiell",
+        "mbid": null
+      },
+      {
+        "name": "Amin Gumbs",
+        "url": "http://www.bandsintown.com/AminGumbs",
+        "mbid": null
+      }
+    ],
+    "venue": {
+      "id": 481245,
+      "url": "http://www.bandsintown.com/venue/481245",
+      "name": "Bohemian Caverns",
+      "city": "Washington",
+      "region": "DC",
+      "country": "United States",
+      "latitude": 38.9171524,
+      "longitude": -77.0267258
+    },
+    "ticket_status": "available",
+    "on_sale_datetime": null
+  },
+  {
+    "id": 10948235,
+    "url": "http://www.bandsintown.com/event/10948235",
+    "datetime": "2016-01-08T20:00:00",
+    "ticket_url": "http://www.bandsintown.com/event/10948235/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "Chris Thomas King Fan Page",
+        "url": "http://www.bandsintown.com/ChrisThomasKingFanPage",
+        "mbid": null
+      }
+    ],
+    "venue": {
+      "id": 3084540,
+      "url": "http://www.bandsintown.com/venue/3084540",
+      "name": "Blues Alley 8:00PM",
+      "city": "Washington",
+      "region": "DC",
+      "country": "United States",
+      "latitude": 38.904689,
+      "longitude": -77.062545
+    },
+    "ticket_status": "unavailable",
+    "on_sale_datetime": null
+  },
+  {
+    "id": 11167883,
+    "url": "http://www.bandsintown.com/event/11167883",
+    "datetime": "2016-01-08T20:00:00",
+    "ticket_url": "http://www.bandsintown.com/event/11167883/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "Built 4 Comfort Band",
+        "url": "http://www.bandsintown.com/Built4ComfortBand",
+        "mbid": null
+      }
+    ],
+    "venue": {
+      "id": 2744629,
+      "url": "http://www.bandsintown.com/venue/2744629",
+      "name": "Villain & Saint",
+      "city": "Bethesda",
+      "region": "MD",
+      "country": "United States",
+      "latitude": 38.980782,
+      "longitude": -77.092245
+    },
+    "ticket_status": "available",
+    "on_sale_datetime": null
+  },
+  {
+    "id": 11136446,
+    "url": "http://www.bandsintown.com/event/11136446",
+    "datetime": "2016-01-08T20:00:00",
+    "ticket_url": "http://www.bandsintown.com/event/11136446/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "Rachel Levitin",
+        "url": "http://www.bandsintown.com/RachelLevitin",
+        "mbid": null
+      }
+    ],
+    "venue": {
+      "id": 1557076,
+      "url": "http://www.bandsintown.com/venue/1557076",
+      "name": "The Pinch",
+      "city": "Washington",
+      "region": "DC",
+      "country": "United States",
+      "latitude": 38.935853,
+      "longitude": -77.033147
+    },
+    "ticket_status": "unavailable",
+    "on_sale_datetime": null
+  },
+  {
+    "id": 10990022,
+    "url": "http://www.bandsintown.com/event/10990022",
+    "datetime": "2016-01-08T20:00:00",
+    "ticket_url": "http://www.bandsintown.com/event/10990022/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "SmithJackson",
+        "url": "http://www.bandsintown.com/SmithJackson",
+        "mbid": null
+      },
+      {
+        "name": "Vinyl lounge",
+        "url": "http://www.bandsintown.com/VinylLounge",
+        "mbid": null
+      },
+      {
+        "name": "Drew Landry",
+        "url": "http://www.bandsintown.com/DrewLandry",
+        "mbid": null
+      }
+    ],
+    "venue": {
+      "id": 2164309,
+      "url": "http://www.bandsintown.com/venue/2164309",
+      "name": "Vinyl Lounge at Gypsy Sally's",
+      "city": "Washington",
+      "region": "DC",
+      "country": "United States",
+      "latitude": 38.904145,
+      "longitude": -77.068103
+    },
+    "ticket_status": "available",
+    "on_sale_datetime": "2015-11-30T21:23:16"
+  },
+  {
+    "id": 11138246,
+    "url": "http://www.bandsintown.com/event/11138246",
+    "datetime": "2016-01-08T20:00:00",
+    "ticket_url": "http://www.bandsintown.com/event/11138246/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "Flamenco by Miguelito",
+        "url": "http://www.bandsintown.com/FlamencoByMiguelito",
+        "mbid": null
+      }
+    ],
+    "venue": {
+      "id": 2908190,
+      "url": "http://www.bandsintown.com/venue/2908190",
+      "name": "Claudia's Steakhouse",
+      "city": "Washington",
+      "region": "DC",
+      "country": "United States",
+      "latitude": 38.9029579,
+      "longitude": -77.035141
+    },
+    "ticket_status": "unavailable",
+    "on_sale_datetime": null
+  },
+  {
+    "id": 11047412,
+    "url": "http://www.bandsintown.com/event/11047412",
+    "datetime": "2016-01-08T20:00:00",
+    "ticket_url": "http://www.bandsintown.com/event/11047412/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "Korby Lenker",
+        "url": "http://www.bandsintown.com/KorbyLenker",
+        "mbid": "83ce090d-52b1-4cfd-8aa7-9bbcd2a7b246"
+      }
+    ],
+    "venue": {
+      "id": 3109932,
+      "url": "http://www.bandsintown.com/venue/3109932",
+      "name": "ONE MORE PAGE",
+      "city": "Arlington",
+      "region": "VA",
+      "country": "United States",
+      "latitude": 38.8862242,
+      "longitude": -77.1627665
+    },
+    "ticket_status": "unavailable",
+    "on_sale_datetime": null
+  },
+  {
+    "id": 11072340,
+    "url": "http://www.bandsintown.com/event/11072340",
+    "datetime": "2016-01-08T20:30:00",
+    "ticket_url": "http://www.bandsintown.com/event/11072340/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "Broke Royals",
+        "url": "http://www.bandsintown.com/BrokeRoyals",
+        "mbid": null
+      }
+    ],
+    "venue": {
+      "id": 1003032,
+      "url": "http://www.bandsintown.com/venue/1003032",
+      "name": "Bayou",
+      "city": "Washington",
+      "region": "DC",
+      "country": "United States",
+      "latitude": 38.90387,
+      "longitude": -77.053992
+    },
+    "ticket_status": "available",
+    "on_sale_datetime": null
+  },
+  {
+    "id": 10983737,
+    "url": "http://www.bandsintown.com/event/10983737",
+    "datetime": "2016-01-08T21:00:00",
+    "ticket_url": "http://www.bandsintown.com/event/10983737/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "Moogatu",
+        "url": "http://www.bandsintown.com/Moogatu",
+        "mbid": null
+      }
+    ],
+    "venue": {
+      "id": 2744629,
+      "url": "http://www.bandsintown.com/venue/2744629",
+      "name": "Villain & Saint",
+      "city": "Bethesda",
+      "region": "MD",
+      "country": "United States",
+      "latitude": 38.980782,
+      "longitude": -77.092245
+    },
+    "ticket_status": "available",
+    "on_sale_datetime": "2015-11-29T22:21:27"
+  },
+  {
+    "id": 11119780,
+    "url": "http://www.bandsintown.com/event/11119780",
+    "datetime": "2016-01-08T21:00:00",
+    "ticket_url": "http://www.bandsintown.com/event/11119780/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "Bone Thugs-n-Harmony",
+        "url": "http://www.bandsintown.com/BoneThugs-n-harmony",
+        "mbid": "2fa45bbb-0efb-4950-9d40-94bf23cbfec1"
+      }
+    ],
+    "venue": {
+      "id": 1321307,
+      "url": "http://www.bandsintown.com/venue/1321307",
+      "name": "Howard Theatre",
+      "city": "Washington",
+      "region": "DC",
+      "country": "United States",
+      "latitude": 38.915552,
+      "longitude": -77.021001
+    },
+    "ticket_status": "available",
+    "on_sale_datetime": "2015-12-29T16:30:00"
+  },
+  {
+    "id": 11028670,
+    "url": "http://www.bandsintown.com/event/11028670",
+    "datetime": "2016-01-08T21:00:00",
+    "ticket_url": "http://www.bandsintown.com/event/11028670/buy_tickets?came_from=233",
+    "artists": [
+      {
+        "name": "Calm The Waters",
+        "url": "http://www.bandsintown.com/CalmTheWaters",
+        "mbid": null
+      },
+      {
+        "name": "Wander",
+        "url": "http://www.bandsintown.com/Wander",
+        "mbid": null
+      }
+    ],
+    "venue": {
+      "id": 1321382,
+      "url": "http://www.bandsintown.com/venue/1321382",
+      "name": "Rock & Roll Hotel",
+      "city": "Washington",
+      "region": "DC",
+      "country": "United States",
+      "latitude": 38.900007,
+      "longitude": -76.986649
+    },
+    "ticket_status": "available",
+    "on_sale_datetime": "2015-12-07T07:28:24"
+  }
+]

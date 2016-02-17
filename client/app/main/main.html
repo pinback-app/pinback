@@ -7,7 +7,7 @@
   </div>
 </div>
 <!-- div for map to render -->
-<leaflet lf-center="center"  defaults = 'defaults' class='custom-popup' event-broadcast="events" layers = 'layers' markers="markers" width="100%" height="500px"></leaflet>
+<leaflet lf-center="center"  defaults = 'defaults' class='custom-popup' event-broadcast="events" layers = 'layers' markers="markers" width="100%" height="500px" geojson></leaflet>
 <div class='events-bar' ng-show="reveal">
   <table class = 'eventbox' id="mapEvent" ng-repeat = 'event in data.showMarker'>
     <tr class = 'event'>
@@ -43,6 +43,7 @@
           <div>Time:  {{event['datetime']}}</div>
           <div class = 'date'> <a href = "{{event['url']}}">More Info</a></div>
           <input class = 'add' type = "submit" value = "add" ng-click = "addEvent(event)"/>
+          <!-- NEED TO ADD EVENT HOOKUP FOR NEW FORMAT -->
          </td>
       </tr>
    </tbody>

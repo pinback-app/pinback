@@ -1,115 +1,78 @@
 angular.module('greenfield.main', ['leaflet-directive'])
-  .controller('BasicCenterController', function($scope, $location, $log, main) {
-      $scope.search = {}; //defining the object and properties ahead of time ensures they are in the correct order for the API request
+  .controller('BasicCenterController', ['$scope', '$location', '$log', '$filter', 'main', function($scope, $location, $log, $filter, main) {
+    $scope.search = '';
 
-      $scope.search.zip = '';
-
-      $scope.city = '';
-
-      $scope.search.rawFromDate = '';
-
-      $scope.search.rawToDate = '';
-
-      $scope.format = function(stuff) { // when the time comes to pass this stuff to ben, reset this function to contain two inner functions, one that reformats everything, and a second that passes off the data to his function
-        stuff.toDate = "" + stuff.rawToDate.getFullYear() + "-0" + (stuff.rawToDate.getMonth() + 1) + "-" + stuff.rawToDate.getDate();
-        stuff.fromDate = "" + stuff.rawFromDate.getFullYear() + "-0" + (stuff.rawFromDate.getMonth() + 1) + "-" + stuff.rawFromDate.getDate();
-        main.searchItem(stuff);
+    $scope.addEvent = function(event) {
+        main.eventRequest(event);
       }
-
-      $scope.addEvent = function(event) {
-          main.eventRequest(event);
+      //set data to bandsintown content
+    var geojson = {
+      type: "FeatureCollection",
+      crs: {
+        type: "name",
+        properties: {
+          name: "urn:ogc:def:crs:OGC:1.3:CRS84"
         }
-        //set data to bandsintown content
-      var data = $location.search();
-      //declare map markers
-      $scope.markers = [];
-      $log.log($scope.markers)
-      for (var i = 0; i < data.mapData.data.length; i++) {
-        marker = {
+      },
+      features: []
+    }
+    $scope.geojson = {};
+    var data = $location.search();
+    //declare map maprkers
+    for (var i = 0; i < data.mapData.data.length; i++) {
+      marker = {
+        type: "Feature",
+        properties: {
           id: i,
           name: data.mapData.data[i].name,
           lat: data.mapData.data[i].latitude,
           lng: data.mapData.data[i].longitude,
           events: data.mapData.data[i].events,
           message: data.mapData.data[i].name
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            data.mapData.data[i].longitude,
+            data.mapData.data[i].latitude
+          ]
         }
-        $scope.markers.push(marker)
-      };
+      }
+      geojson.features.push(marker)
+    };
+    $scope.geojson.data = geojson
+      //extend scope to map objects and set defaults
+    angular.extend($scope, {
+      defaults: {
+        minZoom: 11,
+        scrollWheelZoom: false
+      },
+      center: {
+        lat: $scope.geojson.data.features[0].geometry.lat,
+        lng: $scope.geojson.data.features[0].geometry.lng,
+        zoom: 12
+      },
+      // markers: $scope.markers,
+      position: {
+        lat: $scope.geojson.data.features[0].geometry.lat,
+        lng: $scope.geojson.data.features[0].geometry.lng,
 
-      $scope.$watchCollection("search",
-        function(newValue, oldValue) {
-
-          if (newValue === oldValue) {
-            return;
+      },
+      layers: {
+        baselayers: {
+          osm: {
+            name: 'CartoDB',
+            url: 'http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png',
+            type: 'xyz'
           }
-          var data = angular.copy($scope.markers);
-
-          var justGroup = _.filter(data.features, function(x) {
-
-              if (!newValue.name) {
-                return true
-              } else {
-                return $filter('filter')([x.properties.name], newValue.name).length > 0
-              }
-
-          })
-
-          data.features = justGroup
-          $scope.geojson = {
-            data: data,
-            resetStyleOnMouseout: true
-          }
-
         }
-      );
-
-
-
-      // //Set data variables for rendering venue information on click
-      // //"Could not load data" should not be displayed
-      // $scope.data = {};
-      // $scope.data.showMarker = {
-      //   name: 'Could not load data'
-      // };
-      // $scope.data.venue = 'Could not load data';
-
-      // //extend scope to map objects and set defaults
-      // angular.extend($scope, {
-      //   defaults: {
-      //     minZoom: 11,
-      //     scrollWheelZoom: false
-      //   },
-      //   center: {
-      //     lat: $scope.markers[0].lat,
-      //     lng: $scope.markers[0].lng,
-      //     zoom: 12
-      //   },
-      //   markers: $scope.markers,
-      //   position: {
-      //     lat: $scope.markers[0].lat,
-      //     lng: $scope.markers[0].lng
-      //   },
-      //   layers: {
-      //     baselayers: {
-      //       osm: {
-      //         name: 'CartoDB',
-      //         url: 'http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png',
-      //         type: 'xyz'
-      //       }
-      //     }
-      //   }
-      // });
-
-
-
-      //       //displays event information when marker is clicked
-      //       $scope.$on('leafletDirectiveMarker.click', function(e, args) {
-      //         // references data by id in args
-      //         var id = args.leafletEvent.target.options.id;
-      //         var venue = $scope.markers[id];
-      //         main.venueRequest(venue);
-      //         $scope.data.showMarker = $scope.markers[id].events;
-      //         $scope.reveal = true;
-      //         // console.log($scope.data.showMarker[0])
-      //       });
-      })
+      }
+    });
+    $scope.$watch('search', function(newVal, oldVal) {
+      if (newVal !== oldVal && newVal !== '') {
+        $scope.geojson.data = $filter('filter')(geojson, 'name', newVal);
+      } else {
+        $scope.geojson.data = geojson;
+      }
+    })
+  }])

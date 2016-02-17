@@ -3,7 +3,7 @@ var mysql = require('mysql');
 var connection = mysql.createConnection({
   host: "127.0.0.1",
   user: "root",
-  password: "PASSWORD GOES HERE",
+  password: "password",
   database: "greenfield"
 });
 

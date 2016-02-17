@@ -8,12 +8,17 @@
 </div>
 <!-- div for map to render -->
 <!-- <leaflet lf-center="center"  defaults = 'defaults' class='custom-popup' event-broadcast="events" layers = 'layers' markers="markers" width="100%" height="500px"></leaflet> -->
+<leaflet geojson="geojson" width="100%" height="500px"></leaflet>
+
 <div class="sidebar">
     <input ng-model="search" />
-    <select multiple>
-      <option ng-repeat="feature in geojson.data.features">
-        {{feature.properties.name}}
-      </option>
-  </select>
+    <table ng-cloak class='table'>
+      <tbody ng-repeat="venue in geojson.data.features">
+          <td class='name'>{{venue.properties.name}}</td>
+          <!-- <td class='shows'>{{venue.properties.events}}</td> -->
+          <td class='shows' ng-repeat="event in venue.properties.events">
+            <div>{{event.artists[0].name}}</div>
+            <div>{{event.datetime}}</div>
+          </td>
+      </tbody>
 </div>
-<leaflet geojson="geojson" width="100%" height="500px"></leaflet>

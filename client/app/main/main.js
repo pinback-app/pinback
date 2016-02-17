@@ -21,10 +21,9 @@ angular.module('greenfield.main', ['leaflet-directive'])
         }
           //set data to bandsintown content
         var data = $location.search();
-        console.dir(data);
         //declare map maprkers
         $scope.markers = [];
-
+        $log.log($scope.markers)
         for (var i = 0; i < data.mapData.data.length; i++) {
           marker = {
             id: i,

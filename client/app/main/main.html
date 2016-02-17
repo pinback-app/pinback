@@ -9,16 +9,34 @@
 <!-- div for map to render -->
 <leaflet lf-center="center"  defaults = 'defaults' class='custom-popup' event-broadcast="events" layers = 'layers' markers="markers" width="100%" height="500px"></leaflet>
 <div class='events-bar' ng-show="reveal">
-  <div class = 'eventbox' id="mapEvent" ng-repeat = 'event in data.showMarker'>
-    <div class = 'event'>
-      <div class = 'name'> {{event.artists[0]['name']}}</div>
-      <div class = 'date'> Time:  {{event['datetime']}}</div>
-      <div class = 'date'> <a href = "{{event['url']}}">More Info</a></div>
-      <input class = 'add' type = "submit" value = "add" ng-click = "addEvent(event)"/>
-    </div>
-  </div>
+  <table class = 'eventbox' id="mapEvent" ng-repeat = 'event in data.showMarker'>
+    <tr class = 'event'>
+      <td class = 'name'> {{event.artists[0]['name']}}</td>
+      <td class = 'date'> Time:  {{event['datetime']}}</td>
+      <td class = 'date'> <a href = "{{event['url']}}">More Info</a></td>
+      <td><input class = 'add' type = "submit" value = "add" ng-click = "addEvent(event)"/></td>
+    </tr>
+  </table>
 </div>
 
-</div>
-
-</div>
+<table ng-cloak class='eventbox'>
+   <!-- <thead>
+      <tr class="foot">
+         <th><a href="" ng-click="orderByField = 'country'; reverse=!reverse">Country</a>
+         </th>
+         <th><a href="" ng-click="orderByField = 'fifarank'; reverse=!reverse">FIFA Rank</a>
+         </th>
+      </tr>
+   </thead> -->
+   <tbody>
+      <tr class ='eventbox' ng-repeat="venue in markers">
+         <td class='name'>{{venue.name}}</td>
+         <td class='eventbox' ng-repeat= "event in venue.events">
+          <div>{{event.artists[0]['name']}}</div>
+          <div>Time:  {{event['datetime']}}</div>
+          <div class = 'date'> <a href = "{{event['url']}}">More Info</a></div>
+          <input class = 'add' type = "submit" value = "add" ng-click = "addEvent(event)"/>
+         </td>
+      </tr>
+   </tbody>
+</table>

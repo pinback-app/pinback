@@ -18,20 +18,27 @@
     </tr>
   </table>
 </div>
-
+<div>
+<form role="form">
+    <input ng-model="search.name">
+    <!-- <select class="selectpicker" ng-model='search.Group' ng-options="city.Group as city.Group for city in football | unique:'Group' | orderBy:'Group'" fix>
+      <option value="" selected="selected">-- All Groups --</option>
+    </select> -->
+  </form>
+</div>
 <table ng-cloak class='eventbox'>
-   <!-- <thead>
+   <thead>
       <tr class="foot">
-         <th><a href="" ng-click="orderByField = 'country'; reverse=!reverse">Country</a>
+         <th><a href="" ng-click="orderByField = 'name'; reverse=!reverse">Venues</a>
          </th>
-         <th><a href="" ng-click="orderByField = 'fifarank'; reverse=!reverse">FIFA Rank</a>
+         <th><a href="" ng-click="orderByField = 'shows'; reverse=!reverse">Shows</a>
          </th>
       </tr>
-   </thead> -->
+   </thead>
    <tbody>
-      <tr class ='eventbox' ng-repeat="venue in markers">
+      <tr class ='eventbox' ng-repeat="venue in markers | orderBy:orderByField:reverse | filter:search.name">
          <td class='name'>{{venue.name}}</td>
-         <td class='eventbox' ng-repeat= "event in venue.events">
+         <td class='shows' ng-repeat= "event in venue.events">
           <div>{{event.artists[0]['name']}}</div>
           <div>Time:  {{event['datetime']}}</div>
           <div class = 'date'> <a href = "{{event['url']}}">More Info</a></div>

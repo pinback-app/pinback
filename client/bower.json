@@ -23,6 +23,7 @@
     "angular-messages": "~1.4.8",
     "jasmine-core": "jasmine#~2.4.1",
     "mocha": "~2.3.4",
-    "should": "~8.1.0"
+    "should": "~8.1.0",
+    "angular-ui-router": "~0.2.18"
   }
 }

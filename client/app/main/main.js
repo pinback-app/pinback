@@ -6,6 +6,15 @@ angular.module('greenfield.main', ['leaflet-directive'])
         main.eventRequest(event);
       }
       //set data to bandsintown content
+    // var onEachFeature = function(feature, layer) {
+    //   // does this feature have a property named popupContent?
+    //   console.log('CLICKED')
+    //   if (feature.properties && feature.properties.popupContent) {
+    //     layer.bindPopup(feature.properties.popupContent);
+    //   }
+    // }
+    // $scope.geojson.options = {onEachFeature: onEachFeature}
+
     var geojson = {
       type: "FeatureCollection",
       crs: {
@@ -15,7 +24,16 @@ angular.module('greenfield.main', ['leaflet-directive'])
         }
       },
       features: []
+
     }
+
+    $scope.$on("leafletDirectiveGeoJson.click", function(ev, featureSelected, leafletEvent) {
+      $scope.search = featureSelected.model.properties.name;
+    });
+    $scope.$on("leafletDirectiveMap.click", function(ev, featureSelected, leafletEvent) {
+      $scope.search = "";
+    });
+
     $scope.geojson = {};
     var data = $location.search();
     //declare map maprkers
@@ -28,7 +46,8 @@ angular.module('greenfield.main', ['leaflet-directive'])
           lat: data.mapData.data[i].latitude,
           lng: data.mapData.data[i].longitude,
           events: data.mapData.data[i].events,
-          message: data.mapData.data[i].name
+          popupContent: data.mapData.data[i].name,
+          focus: true
         },
         "geometry": {
           "type": "Point",
@@ -40,23 +59,24 @@ angular.module('greenfield.main', ['leaflet-directive'])
       }
       geojson.features.push(marker)
     };
+
+
+
     $scope.geojson.data = geojson
       //extend scope to map objects and set defaults
     angular.extend($scope, {
       defaults: {
         minZoom: 11,
-        scrollWheelZoom: false
+        scrollWheelZoom: true
       },
       center: {
-        lat: $scope.geojson.data.features[0].geometry.lat,
-        lng: $scope.geojson.data.features[0].geometry.lng,
+        lat: $scope.geojson.data.features[0].geometry.coordinates[1],
+        lng: $scope.geojson.data.features[0].geometry.coordinates[0],
         zoom: 12
       },
-      // markers: $scope.markers,
       position: {
-        lat: $scope.geojson.data.features[0].geometry.lat,
-        lng: $scope.geojson.data.features[0].geometry.lng,
-
+        lat: $scope.geojson.data.features[0].geometry.coordinates[1],
+        lng: $scope.geojson.data.features[0].geometry.coordinates[0],
       },
       layers: {
         baselayers: {

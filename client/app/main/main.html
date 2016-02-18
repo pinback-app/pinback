@@ -5,7 +5,7 @@
 <leaflet class="map-styles" geojson="geojson" onEachFeature="onEachFeature" defaults = 'defaults' lf-center='center' width="50%" height="550" layers = 'layers'></leaflet>
 
 <div class="sidebar">
-    <input ng-model="search"/>
+    <input class="form-control mapInput"ng-model="search"/>
     <table ng-cloak class='table'>
       <tbody ng-repeat="venue in geojson.data.features">
           <td class='name'>{{venue.properties.name}}</td>

@@ -45,16 +45,16 @@
           <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <div class="title">
-                  <h1><b> <i>pinback </b> </i></h1>
+                  <h1><b> <i>pinback</i></h1>
                   <p>Searching for concerts in your area has never been easier.</p>
-                  <br>
                   <form novalidate name = "inputForm" id = "searchPage"><!--removes native form validation-->
                     <span>
                       <label for = "rawFromDate"> </label>
-                      <input type = "date" class = "formInput" id = "rawFromDate" ng-model = "search.rawFromDate" /> to <input type = "date" class = "formInput" ng-model = "search.rawToDate"/>
+                      
+                      <input type = "date" class = "formInput form-control" id = "rawFromDate" ng-model = "search.rawFromDate" /> to <input type = "date" class = "formInput form-control" ng-model = "search.rawToDate"/>
                       <br>
                       <label for = "zip"></label> <!--making a label using the id allows users to switch control to the input by clicking zip:-->
-                      <input placeholder="zipcode"type = "text" class = "formInput" id = "zip" ng-model = "search.zip" required name = "zip" ng-minlength = 5 ng-maxlength = 5 />
+                      <input placeholder="zipcode"type = "text" class = "formInput form-control" id = "zip" ng-model = "search.zip" required name = "zip" ng-minlength = 5 ng-maxlength = 5 />
                       <span ng-messages = "inputForm.zip.$error" role = "alert">
                         <div class="zipcode-error" ng-message = "required">Please enter a zipcode
                         </div> <!--finds form sections marked as required and shows this message when they are empty-->

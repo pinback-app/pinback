@@ -189,3 +189,13 @@ li a:hover {
 .contact-us {
   color: white;
 }
+
+.formInput {
+  width: 30%;
+  display: inline-block;
+}
+
+.mapInput {
+  width: 70%;
+  display: inline-block;
+}

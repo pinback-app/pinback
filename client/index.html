@@ -3,6 +3,9 @@
     <head>
         <meta charset="utf-8">
         <title>green field home page</title>
+        <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <!-- Custom CSS -->
+        <link href="styles/grayscale.css" rel="stylesheet">
         <link rel="stylesheet" href="/styles/styles.css">
         <link href='https://api.tiles.mapbox.com/mapbox.js/v2.2.3/mapbox.css' rel='stylesheet' />
         <link rel="icon" type="image/png" href="styles/favicon.ico">
@@ -10,10 +13,10 @@
         
     </head>
     <body>
+
         <!--if we want a nav bar, we should put it here so it persists across views-->
         <div ui-view>
             
-        </div>
         <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
         <script src="/lib/keys.js"></script>
         <script src="/bower_components/jquery/dist/jquery.min.js"></script>
@@ -23,6 +26,14 @@
         <script src="/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
         <script src="/app/directives/angular-leaflet-directive.min.js"></script>
         <script src='/lib/mapbox.js'></script>
+         <!-- jQuery -->
+        <script src="lib/jquery.js"></script>
+        <!-- Bootstrap Core JavaScript -->
+        <script src="lib/bootstrap.min.js"></script>
+        <!-- Plugin JavaScript -->
+        <script src="lib/jquery.easing.min.js"></script>
+        <!-- Custom Theme JavaScript -->
+        <script src="lib/grayscale.js"></script>
 
 
 

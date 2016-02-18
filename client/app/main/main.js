@@ -2,6 +2,10 @@ angular.module('greenfield.main', ['leaflet-directive'])
   .controller('BasicCenterController', ['$scope', '$location', '$log', '$filter', 'main', function($scope, $location, $log, $filter, main) {
     $scope.search = '';
 
+    $scope.goHome = function() {
+      console.log('hello');
+      $location.path('/#/search')
+    }
     $scope.addEvent = function(event) {
         main.eventRequest(event);
       }

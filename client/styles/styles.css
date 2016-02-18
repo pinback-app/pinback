@@ -1,19 +1,11 @@
 /*map styling*/
 body {
-  background-color: #242426;
   font-family: "Helvetica";
   margin: 0px;
+  color: black;
 }
 
-body {
- background-image: url('splash.jpg');
- background-repeat: no-repeat;
- -webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
- background-size: cover;
- background-attachment: fixed;
-}
+
 
 form {
   padding: 5px;
@@ -28,18 +20,49 @@ input {
   font-size: 20px;
 }
 
+.content-section {
+  margin: 0px auto;
+  padding: 10%;
+}
+
+.title {
+  text-align: center;
+}
+
+.scroll-button {
+  margin-left: 49%;
+  margin-right: 49%;
+}
+
+.scroll-button:hover {
+  text-decoration: none;
+}
 #searchPage {
   font-size: 20px;
   text-align: center;
-  margin-top: 125px; 
-  color: white;
-  text-shadow:
+  color: black;
+  /*text-shadow:
    -1px -1px 0 #000,  
     1px -1px 0 #000,
     -1px 1px 0 #000,
-     1px 1px 0 #000;
+     1px 1px 0 #000;*/
 }
 
+.zipcode-error {
+  opacity: 0.5;
+  font-size: 14px;
+  color: red;
+}
+
+.intro {
+  background-color: gray;
+  color: black;
+}
+
+.why-pinback {
+  margin-left:1%;
+  margin-right:1%;
+}
 
 input[type="text"], textarea {
 
@@ -118,8 +141,11 @@ li a:hover {
 .sidebar {
   overflow-x:scroll;
   float: right;
+  color: white;
   width: 50%;
-  height: 900px;
+  height: 550px;
+  margin-top: 1.2%;
+  border: 1px solid white;
 }
 
 
@@ -153,4 +179,9 @@ li a:hover {
 
 .btn:hover {
   background-color: #2980b9;
+}
+
+.map-styles {
+  border: 1px solid white;
+  margin-top: 5%;
 }

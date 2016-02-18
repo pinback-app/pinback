@@ -1,27 +1,129 @@
 <div id='container'>
-  <div id = "navBar">
-    <ul>
-      <li><a href="#/search">Search</a></li>
-      <li><a href="#/userEvents">My Events</a></li>
-    </ul>
-  </div>
-  <form novalidate name = "inputForm" id = "searchPage"><!--removes native form validation-->
-  <span>
-    <label for = "rawFromDate"> Date Range: </label>
-    <input type = "date" class = "formInput" id = "rawFromDate" ng-model = "search.rawFromDate" />  <input type = "date" class = "formInput" ng-model = "search.rawToDate"/>
-    <br/>
-    <label for = "zip">Zipcode:</label> <!--making a label using the id allows users to switch control to the input by clicking zip:-->
-    <input type = "text" class = "formInput" id = "zip" ng-model = "search.zip" required name = "zip" ng-minlength = 5 ng-maxlength = 5 />
-    <br/>
-    <input type = "submit" ng-click = "format(search)" class = "btn"/>
-    <div ng-messages = "inputForm.zip.$error" role = "alert">
-      <div ng-message = "required">
-        Please enter a zipcode
-        </div> <!--finds form sections marked as required and shows this message when they are empty-->
-        <div ng-message = "minlength, maxlength">
-          Please enter a valid 5 digit zipcode
+
+  <div id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-play-circle"></i>  <span class="light">Search</span> pinback
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About Us</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#download">Team</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <br><br><br>
+    <!-- Intro Header -->
+    <br><br><br>
+    <header class="intro">
+      <div class="intro-body jumbotron">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="title">
+                  <h1><b> <i>pinback </b> </i></h1>
+                  <p>Searching for concerts in your area has never been easier.</p>
+                  <br>
+                  <form novalidate name = "inputForm" id = "searchPage"><!--removes native form validation-->
+                    <span>
+                      <label for = "rawFromDate"> </label>
+                      <input type = "date" class = "formInput" id = "rawFromDate" ng-model = "search.rawFromDate" /> to <input type = "date" class = "formInput" ng-model = "search.rawToDate"/>
+                      <br>
+                      <label for = "zip"></label> <!--making a label using the id allows users to switch control to the input by clicking zip:-->
+                      <input placeholder="zipcode"type = "text" class = "formInput" id = "zip" ng-model = "search.zip" required name = "zip" ng-minlength = 5 ng-maxlength = 5 />
+                      <span ng-messages = "inputForm.zip.$error" role = "alert">
+                        <div class="zipcode-error" ng-message = "required">Please enter a zipcode
+                        </div> <!--finds form sections marked as required and shows this message when they are empty-->
+                        <div class="zipcode-error"ng-message = "minlength, maxlength">
+                            Please enter a valid 5 digit zipcode
+                        </div>
+                      </span>
+                      <input type = "submit" ng-click = "format(search)" class = "btn"/>
+                    </span>
+                  </form>
+              </div>
+              <br><br>                 
+            </div>
+          </div>
         </div>
       </div>
-    </span>
-  </form>
+    </header>
+
+    <a class="page-scroll glyphicon glyphicon-menu-down scroll-button" aria-hidden="true" href="#about"> </a>
+
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
+        <div class="row jumbotron">
+            <div class="col-lg-8 col-lg-offset-2">
+              <h1><b> <i>Why pinback? </b> </i></h1>
+              <br>
+              <p class="why-pinback">Searching for concerts in your area has never been easier. Searching for concerts in your area has never been easier. Searching for concerts in your area has never been easier. Searching for concerts in your area has never been easier. Searching for concerts in your area has never been easier. Searching for concerts in your area has never been easier.</p>
+              <br>
+            </div>
+            <a class="page-scroll glyphicon glyphicon-menu-down scroll-button" aria-hidden="true" href="#download"> </a>
+        </div>
+    </section>
+
+
+    <!-- Download Section -->
+    <section id="download" class="content-section text-center">
+        <div class="download-section jumbotron">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Meet the Team</h2>
+                </div>
+            </div>
+        </div>
+        <a class="page-scroll glyphicon glyphicon-menu-down scroll-button" aria-hidden="true" href="#contact"> </a>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Contact Start Bootstrap</h2>
+                <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
+                <p><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a>
+                </p>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    </li>
+                    <li>
+                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+
 </div>

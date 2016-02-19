@@ -1,3 +1,4 @@
+![Logo](assets/github-compass-banner.png | width=646 "Pinback")
 # Greenfield API Documentation
 
 Our Greenfield API allows you to perform all the operations required to interact with our web client. The API utilizes REST principles to ensure clear and predictable paths that make writing applications straightforward. 

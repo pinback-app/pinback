@@ -1,3 +1,5 @@
+//<h3> Filter feature
+
 angular.module('greenfield.main').filter('filter', [function() {
   return function(geojson, searchProperty, searchValue) {
     console.log('Matches:');

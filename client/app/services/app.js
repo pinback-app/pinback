@@ -7,6 +7,7 @@ angular.module('greenfield.services', [])
 
   var venue_id;
 
+  //Receives data for requested venue in specific date range and location
   var venueRequest = function(venue) {
     $log.info(venue);
     venue_id = "" + venue.id;
@@ -24,6 +25,7 @@ angular.module('greenfield.services', [])
     })
   }
 
+  //Receives data for requested event 
   var eventRequest = function(event) {
     event.artists = event.artists[0].name;
     event.venue_id = venue_id;

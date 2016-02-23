@@ -6,8 +6,6 @@ body {
 }
 
 
-#logo{
-}
 
 form {
   padding: 5px;
@@ -200,4 +198,12 @@ li a:hover {
 .mapInput {
   width: 70%;
   display: inline-block;
+}
+
+.navbar-custom .nav li.active a {
+    background-color: transparent;
+}
+
+.current {
+  border: 1px solid white;
 }

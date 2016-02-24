@@ -42,24 +42,30 @@ angular.module('greenfield.main', ['leaflet-directive'])
 
     $scope.geojson = {};
     var data = $location.search();
+    var venues = data.mapData.data
     //declare map maprkers
-    for (var i = 0; i < data.mapData.data.length; i++) {
+    for (var i = 0; i < venues.length; i++) {
+      for (var j = 0; j < venues[i].events.length; j++) {
+        
+        venues[i].events[j].datetime = moment(venues[i].events[j].datetime).format('MMMM Do YYYY, h:mm:ss a');
+      }
+
       marker = {
         type: "Feature",
         properties: {
           id: i,
-          name: data.mapData.data[i].name,
-          lat: data.mapData.data[i].latitude,
-          lng: data.mapData.data[i].longitude,
-          events: data.mapData.data[i].events,
-          popupContent: data.mapData.data[i].name,
+          name: venues[i].name,
+          lat: venues[i].latitude,
+          lng: venues[i].longitude,
+          events: venues[i].events,
+          popupContent: venues[i].name,
           focus: true
         },
         "geometry": {
           "type": "Point",
           "coordinates": [
-            data.mapData.data[i].longitude,
-            data.mapData.data[i].latitude
+            venues[i].longitude,
+            venues[i].latitude
           ]
         }
       }

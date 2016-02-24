@@ -12,7 +12,10 @@ form {
 input {
   margin: 5px;
 }
-
+#github-link{
+  width:50%;
+  margin:auto;
+}
 #navBar{
   background-color: #065287;
   font-size: 20px;

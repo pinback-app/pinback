@@ -10,9 +10,13 @@
       <tbody ng-repeat="venue in geojson.data.features">
           <td class='name'>{{venue.properties.name}}</td>
           <!-- <td class='shows'>{{venue.properties.events}}</td> -->
-          <td class='shows' ng-repeat="event in venue.properties.events">
-            <div>{{event.artists[0].name}}</div>
-            <div>{{event.datetime}}</div>
+          <td class='shows'>
+            <div ng-repeat="event in venue.properties.events">
+              <div>{{event.artists[0].name}}</div>
+              <div>{{event.datetime}}</div>
+              <a href={{event.url}} target="_blank">{{event.url}}</a>
+            </div>
+            
           </td>
       </tbody>
 </div>

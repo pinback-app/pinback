@@ -8,6 +8,8 @@ angular.module('greenfield', [
     'ui.router',
     'ngMessages'//form validation in search.html
   ])
+
+//states setup using ui router
 .config(function ($routeProvider, $stateProvider, $sceProvider, $urlRouterProvider) {
 
   $stateProvider

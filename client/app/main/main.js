@@ -2,10 +2,11 @@ angular.module('greenfield.main', ['leaflet-directive'])
   .controller('BasicCenterController', ['$scope', '$location', '$log', '$filter', 'main', function($scope, $location, $log, $filter, main) {
     $scope.search = '';
 
+    //function that will redirect user to the search page, which is currently set as home
     $scope.goHome = function() {
-      console.log('hello');
       $location.path('/#/search')
     }
+
     $scope.addEvent = function(event) {
         main.eventRequest(event);
       }
@@ -31,6 +32,7 @@ angular.module('greenfield.main', ['leaflet-directive'])
 
     }
 
+    //On click event that will show selected venue details
     $scope.$on("leafletDirectiveGeoJson.click", function(ev, featureSelected, leafletEvent) {
       $scope.search = featureSelected.model.properties.name;
     });
@@ -92,6 +94,8 @@ angular.module('greenfield.main', ['leaflet-directive'])
         }
       }
     });
+
+    //$watch event that will update list view based on map interactions
     $scope.$watch('search', function(newVal, oldVal) {
       if (newVal !== oldVal && newVal !== '') {
         $scope.geojson.data = $filter('filter')(geojson, 'name', newVal);

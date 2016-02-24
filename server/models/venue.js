@@ -1,5 +1,6 @@
 var db = require('./db/index.js');
 
+//<h3>Setup for storing user interests</h3>
 var add = function(venueObj, callback) {
   //check if venue is in db
   check(venueObj, addVenue, callback);

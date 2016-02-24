@@ -1,36 +1,33 @@
 var request = require('request');
 
-
+//<h3> Reformatting of Bands in Town API data
 var reArrange = function(body) {
   //modify the body, store it in newBody
-  /*
-    For client-side convenience, upon request, request body is being modified to emulate the following format: 
-  First into this: 
+  //For client-side convenience, upon request, request body is being modified to emulate the following format: 
+  //First into this: 
 
-    var newBody = {
-      3120085: {
-        id: 3120085, 
-        url: "http://www.something.com", 
-        name: "society", 
-        city: "silver-spring", 
-        region: "MD", 
-      country: "USA", 
-      lat: 38.9, 
-      long: 39.4, 
-      events: [
-          {
-            b_event_id: 112121, 
-            url: "http:", 
-            datetime: "addsad", 
-            artists: ["a", "b", "c"]
-          }
-        ]
-      }
-    }
+    //var newBody = {
+      //3120085: {
+        //id: 3120085, 
+        //url: "http://www.something.com", 
+        //name: "society", 
+        //city: "silver-spring", 
+        //region: "MD", 
+      //country: "USA", 
+      //lat: 38.9, 
+      //long: 39.4, 
+      //events: [
+          //{
+            //b_event_id: 112121, 
+            //url: "http:", 
+            //datetime: "addsad", 
+            //artists: ["a", "b", "c"]
+          //}
+        //]
+      //}
+    //}
 
-  Then into an array-like format, arranged by venue id with the same above-mentioned format (in essence, each represents an object in the array)
-
-  */
+  //Then into an array-like format, arranged by venue id with the same above-mentioned format (in essence, each represents an object in the array)
   var newBody = {};
   body = JSON.parse(body);
 

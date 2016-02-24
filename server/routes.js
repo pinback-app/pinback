@@ -14,6 +14,8 @@ On this post request, the route will
 
 */
 
+//<h3> Routes
+
 router.post("/search", controllers.search.post);
 
 router.post("/user", controllers.user.post);

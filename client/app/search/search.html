@@ -27,7 +27,7 @@
                         <a class="page-scroll" ng-click="clickAbout()"ng-class="{'current': aboutUs}" href="#about">About Us</a>
                     </li>
                     <li>
-                        <a class="page-scroll" ng-click="clickTeam()"ng-class="{'current': team}"href="#download">Team</a>
+                        <a class="page-scroll" ng-click="clickTeam()"ng-class="{'current': team}"href="#team">Team</a>
                     </li>
                     <li>
                         <a class="page-scroll contact-color" ng-click="clickContact()"ng-class="{'current': contactUs}" href="#contact">Contact Us</a>
@@ -48,7 +48,7 @@
             <div class="col-md-8 col-md-offset-2">
                 <div class="title">
                   <img src="./assets/pinback-banner-1.png" style="width:646px;">
-                  <p>Searching for concerts has never been easier.</p>
+                  <p>Pick a place and time to see upcoming shows!</p>
                   <form novalidate name = "inputForm" id = "searchPage"><!--removes native form validation-->
                     <span>
                       <label for = "rawFromDate"> </label>
@@ -82,7 +82,8 @@
             <div class="col-lg-8 col-lg-offset-2">
               <h1><b> <i>Why pinback? </b> </i></h1>
               <br>
-              <p class="why-pinback">Searching for concerts in your area has never been easier. Searching for concerts in your area has never been easier. Searching for concerts in your area has never been easier. Searching for concerts in your area has never been easier. Searching for concerts in your area has never been easier. Searching for concerts in your area has never been easier.</p>
+              <p class="why-pinback">Pinback allows music lovers to search for upcoming concerts in the area. Accompanied by a simple, intuitive venue map and a list of concerts, planning your concert experience has never been easier.
+</p>
               <br>
             </div>
         </div>
@@ -90,15 +91,55 @@
 
 
     <!-- Download Section -->
-    <section id="download" class="content-section text-center">
-        <div class="download-section jumbotron">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Meet the Team</h2>
-                </div>
+        <section id="team" class="container content-section text-center">
+        <div class="row jumbotron">
+            <div class="col-lg-8 col-lg-offset-2">
+              <h1><b> <i>Meet The Team </b> </i></h1>
+              <div class="container">
+                <div class="row  pad-row text-center" >
+                <div class="col-md-3 col-sm-3 col-xs-6">
+                     
+                    <img src="./assets/ben-balaran.jpg" class="img-responsive img-circle pad-img" alt=""/>
+                    <h4>Ben Balaran</h4>
+                    <span>
+                        Co-founder
+                    </span>
+                    <span>
+                        Full-stack Developer
+                    </span>
+                    </div>
+                <div class="col-md-3 col-sm-3 col-xs-6">
+                    <img src="./assets/neeraj-kohirkar.jpg" class="img-responsive img-circle pad-img" alt=""/>
+                     <h4>Neeraj Kohirkar</h4>
+                    <span>
+                        Co-founder
+                    </span>
+                    <span>
+                        Full-stack Developer
+                    </span>
+                    </div>
+             <div class="col-md-3 col-sm-3 col-xs-6">
+                    <img src="./assets/rob-adelmann.jpg" class="img-responsive img-circle pad-img" alt=""/>
+                  <h4>Rob Adelmann</h4>
+                    <span>
+                        Back-end Developer
+                    </span>
+                    </div>
+             <div class="col-md-3 col-sm-3 col-xs-6">                  
+                    <img src="./assets/brian-sweeney.jpg" class="img-responsive img-circle pad-img" alt=""/>
+                  <h4>Brian Sweeney</h4>
+                    <span>
+                      Front-end Developer
+                    </span>
+                    </div>
+                
+        </div>
+              <br>
+              <br>
             </div>
         </div>
     </section>
+
 
     <!-- Contact Section -->
     <section id="contact" class="container content-section text-center">
@@ -106,19 +147,11 @@
             <div class="contact-us col-lg-8 col-lg-offset-2">
                 <h2>Contact Pinback</h2>
                 <p>We are thrilled to continue building on a tool that brings easy access to amazing live shows everywhere. Please provide us with feedback!</p>
-                <p><a href="mailto:feedback@startbootstrap.com">feedback@pinback.com</a>
+                <p><a href="mailto:feedback@startbootstrap.com">feedback@pinback.io</a>
                 </p>
-                <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                    </li>
-                    <li>
-                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
-                    </li>
-                </ul>
+                    <div class="github-link">
+                        <a href="https://github.com/pinback-app/pinback"><i class="fa fa-github fa-fw"></i> <img id="logo" src="./assets/github-logo-white.png" style="height:100px;"></a>
+                    </div>
             </div>
         </div>
     </section>

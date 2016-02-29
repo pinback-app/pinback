@@ -13,6 +13,17 @@ input {
   margin: 5px;
 }
 
+.map-header{
+  height: 120px;
+}
+#map-page-logo{
+  margin: 50px 0 0 50px;
+}
+
+#github-link{
+  width:50%;
+  margin:auto;
+}
 #navBar{
   background-color: #065287;
   font-size: 20px;
@@ -69,7 +80,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: black;
 }
 
 li {
@@ -161,7 +172,7 @@ li a:hover {
   border-right:15px solid transparent;
   border-top:15px solid #2c3e50;
   }
-
+/*
 .btn {
  color: #ffffff;
  background-color: #000000;
@@ -173,11 +184,11 @@ li a:hover {
 
 .btn:hover {
   background-color: #2980b9;
-}
+}*/
 
 .map-styles {
   border: 1px solid white;
-  margin-top: 5%;
+  margin-top: 1%;
 }
 
 .contact-us {

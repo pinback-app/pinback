@@ -25,6 +25,7 @@
     "mocha": "~2.3.4",
     "should": "~8.1.0",
     "angular-ui-router": "~0.2.18",
-    "bootstrap": "~3.3.6"
+    "bootstrap": "~3.3.6",
+    "moment": "^2.11.2"
   }
 }

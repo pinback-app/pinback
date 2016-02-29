@@ -1,7 +1,10 @@
 <div id='container'>
+<div class="map-header">
+<a ng-click="goHome()"><img id="map-page-logo" src="./assets/pinback-logo-white.png" style="height:32px;"></a>
+</div>
+
+
 <!-- div for map to render -->
-<!-- <leaflet lf-center="center"  defaults = 'defaults' class='custom-popup' event-broadcast="events" layers = 'layers' markers="markers" width="100%" height="500px"></leaflet> -->
-<button type="button" class="btn btn-default btn-lg" ng-click="goHome()">Return to pinback homepage</button>
 <leaflet class="map-styles" geojson="geojson" onEachFeature="onEachFeature" defaults = 'defaults' lf-center='center' width="50%" height="550" layers = 'layers'></leaflet>
 
 <div class="sidebar">

@@ -53,7 +53,9 @@ var reArrange = function(body) {
 };
 
 module.exports = function(data, callback) {
-  request('http://api.bandsintown.com/events/search?location=' + data.city + ',' + data.state + '&radius=10&format=json&date=' + data.fromDate + ',' + data.toDate + '(inclusive range)&app_id=mapit', function(err, res, body) {
+  var bitReq = 'http://api.bandsintown.com/events/search?location=' + data.city + ',' + data.state + '&radius=10&format=json&date=' + data.fromDate + ',' + data.toDate + '(inclusive range)&app_id=mapit'
+  console.log(bitReq);
+  request(bitReq, function(err, res, body) {
     if (err) {
       callback(err)
     } else {

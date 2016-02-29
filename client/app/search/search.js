@@ -41,15 +41,10 @@ angular.module('greenfield.search', [])
     }
 
     //This reformats data (to and from date) to bands in town api formatted dates
-    $scope.format = function(stuff){// when the time comes to pass this stuff to ben, reset this function to contain two inner functions, one that reformats everything, and a second that passes off the data to his function
-      stuff.toDate = "" + stuff.rawToDate.getFullYear() + "-0" + (stuff.rawToDate.getMonth() + 1) + "-" + stuff.rawToDate.getDate()
-      stuff.fromDate = "" + stuff.rawFromDate.getFullYear() + "-0" + (stuff.rawFromDate.getMonth() + 1) + "-" + stuff.rawFromDate.getDate()
-      main.searchItem(stuff);
+    $scope.format = function(dateInfo){
+      dateInfo.toDate = "" + dateInfo.rawToDate.getFullYear() + "-0" + (dateInfo.rawToDate.getMonth() + 1) + "-" + ("0" + dateInfo.rawToDate.getDate()).slice(-2)
+      dateInfo.fromDate = "" + dateInfo.rawFromDate.getFullYear() + "-0" + (dateInfo.rawFromDate.getMonth() + 1) + "-" + ("0" + dateInfo.rawFromDate.getDate()).slice(-2)
+      main.searchItem(dateInfo);
     } 
-
-//concat city, state to zip 
-
-
-
 
   })

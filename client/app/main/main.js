@@ -25,7 +25,7 @@ angular.module('greenfield.main', ['leaflet-directive'])
       crs: {
         type: "name",
         properties: {
-          name: "urn:ogc:def:crs:OGC:1.3:CRS84"
+          name: "mapCollection"
         }
       },
       features: []
@@ -75,6 +75,7 @@ angular.module('greenfield.main', ['leaflet-directive'])
 
 
     $scope.geojson.data = geojson
+    console.log($scope.geojson.data)
       //extend scope to map objects and set defaults
     angular.extend($scope, {
       defaults: {

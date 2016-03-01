@@ -8,7 +8,7 @@ var morgan = require('morgan');
 var router = require('./routes.js')
 
 // port
-app.set("port", 3000);
+app.set("port", 80);
 
 // logging and parsing
 app.use(morgan('dev'));

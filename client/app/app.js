@@ -14,29 +14,29 @@ angular.module('greenfield', [
 
   $stateProvider
     .state('home', {
-      url: '/index.html', 
+      url: '/=', 
       templateUrl: 'app/search/search.html', 
       controller: 'searchController'
     })
     .state('main',{
-      url: '/main.html',
+      url: '/main',
       templateUrl: 'app/main/main.html',
       controller: 'BasicCenterController'
     })
     .state('search', {
-      url: '/search.html',
+      url: '/search',
       templateUrl: 'app/search/search.html',
       controller: "searchController"
     })
     .state('userEvents', {
-      url: '/userEvents.html', 
+      url: '/userEvents', 
       templateUrl: "app/userEvents/userEvents.html",
       controller: "userEventsController"
     })
     .state('login', {
-      url: '/login.html',
+      url: '/login',
       templateUrl: "app/login/login.html",
       controller: "loginController"
     })
-  $urlRouterProvider.otherwise('/search.html')
+  $urlRouterProvider.otherwise('/search')
 })

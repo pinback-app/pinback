@@ -16,7 +16,6 @@ app.use(parser.json());
 
 //static route
 app.use(express.static(__dirname + '/../client'));
-
 // api router
 app.use("/api", router);
 
